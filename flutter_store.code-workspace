@@ -1,0 +1,51 @@
+{
+  "folders": [
+    {
+      "path": "console",
+    },
+    {
+      "path": "client",
+    },
+    {
+      "path": "server",
+    },
+  ],
+  "settings": {
+    "editor.foldingImportsByDefault": true,
+    "dart.flutterCreateOrganization": "me.mitul",
+    "dart.flutterSdkPath": "/Users/mitulvaghamshi/Developer/bin/.flutter/bin",
+    "dart.flutterCreatePlatforms": [
+      "web"
+    ],
+    "[dart]": {
+      "editor.tabSize": 2,
+      "editor.insertSpaces": true,
+      "editor.detectIndentation": false,
+      "editor.suggest.insertMode": "replace",
+      "editor.defaultFormatter": "Dart-Code.dart-code",
+      "editor.inlayHints.enabled": "offUnlessPressed",
+    },
+  },
+  "extensions": {
+    "recommendations": [
+      "Dart-Code.flutter",
+      "Dart-Code.dart-code",
+      "GitHub.github-vscode-theme",
+      "vscode-icons-team.vscode-icons",
+    ],
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "type": "shell",
+        "label": "Run: build_runner:build",
+        "command": "dart run build_runner build -d",
+        "problemMatcher": [
+          "$dart-build_runner"
+        ],
+        "isBackground": true
+      }
+    ],
+  },
+}

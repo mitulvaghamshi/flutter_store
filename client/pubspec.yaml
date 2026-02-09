@@ -1,0 +1,223 @@
+name: flutter_store
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  cupertino_icons: ^1.0.4
+  flutter:
+    sdk: flutter
+
+  # ajson_app:
+  flutter_html: ^3.0.0
+  http: ^1.0.0
+
+  intl: ^0.20.2
+
+  # istore_app:
+  provider: ^6.0.2
+  shrine_images: ^2.0.2
+
+dev_dependencies:
+  extra_lints:
+    git:
+      url: https://github.com/mitulvaghamshi/extra_lints.git
+
+  # istore_app:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  test: ^1.22.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # sphere_app:
+    - assets/sphere_app/custom.webp
+    - assets/sphere_app/earth.webp
+    - assets/sphere_app/jupiter.webp
+    - assets/sphere_app/mars.webp
+    - assets/sphere_app/mercury.webp
+    - assets/sphere_app/moon.webp
+    - assets/sphere_app/neptune.webp
+    - assets/sphere_app/saturn.webp
+    - assets/sphere_app/stars.webp
+    - assets/sphere_app/sun.webp
+    - assets/sphere_app/uranus.webp
+    - assets/sphere_app/venus.webp
+    - assets/sphere_app/thumb/custom.webp
+    - assets/sphere_app/thumb/earth.webp
+    - assets/sphere_app/thumb/jupiter.webp
+    - assets/sphere_app/thumb/mars.webp
+    - assets/sphere_app/thumb/mercury.webp
+    - assets/sphere_app/thumb/moon.webp
+    - assets/sphere_app/thumb/neptune.webp
+    - assets/sphere_app/thumb/saturn.webp
+    - assets/sphere_app/thumb/stars.webp
+    - assets/sphere_app/thumb/sun.webp
+    - assets/sphere_app/thumb/uranus.webp
+    - assets/sphere_app/thumb/venus.webp
+
+    # ajson_app:
+    - assets/ajson_app/wiki.json
+    - assets/ajson_app/users.json
+    - assets/ajson_app/gita.json
+    - assets/ajson_app/gita_snippets_en.json
+    - assets/ajson_app/gita_snippets_hi.json
+
+    # gstore_app:
+    - assets/gstore_app/google-logo.webp
+    - assets/gstore_app/nest-audio-packages.webp
+    - assets/gstore_app/nest-home-packages.webp
+    - assets/gstore_app/nest.webp
+    - assets/gstore_app/pixels.webp
+
+    # istore_app:
+    - packages/shrine_images/0-0.jpg
+    - packages/shrine_images/1-0.jpg
+    - packages/shrine_images/2-0.jpg
+    - packages/shrine_images/3-0.jpg
+    - packages/shrine_images/4-0.jpg
+    - packages/shrine_images/5-0.jpg
+    - packages/shrine_images/6-0.jpg
+    - packages/shrine_images/7-0.jpg
+    - packages/shrine_images/8-0.jpg
+    - packages/shrine_images/9-0.jpg
+    - packages/shrine_images/10-0.jpg
+    - packages/shrine_images/11-0.jpg
+    - packages/shrine_images/12-0.jpg
+    - packages/shrine_images/13-0.jpg
+    - packages/shrine_images/14-0.jpg
+    - packages/shrine_images/15-0.jpg
+    - packages/shrine_images/16-0.jpg
+    - packages/shrine_images/17-0.jpg
+    - packages/shrine_images/18-0.jpg
+    - packages/shrine_images/19-0.jpg
+    - packages/shrine_images/20-0.jpg
+    - packages/shrine_images/21-0.jpg
+    - packages/shrine_images/22-0.jpg
+    - packages/shrine_images/23-0.jpg
+    - packages/shrine_images/24-0.jpg
+    - packages/shrine_images/25-0.jpg
+    - packages/shrine_images/26-0.jpg
+    - packages/shrine_images/27-0.jpg
+    - packages/shrine_images/28-0.jpg
+    - packages/shrine_images/29-0.jpg
+    - packages/shrine_images/30-0.jpg
+    - packages/shrine_images/31-0.jpg
+    - packages/shrine_images/32-0.jpg
+    - packages/shrine_images/33-0.jpg
+    - packages/shrine_images/34-0.jpg
+    - packages/shrine_images/35-0.jpg
+    - packages/shrine_images/36-0.jpg
+    - packages/shrine_images/37-0.jpg
+
+  # afonts_app:
+  fonts:
+    - family: Enjoy The Time Hollow
+      fonts:
+        - asset: assets/afonts_app/Enjoy The Time/Enjoy The Time Hollow.otf
+    - family: Enjoy The Time Inverse
+      fonts:
+        - asset: assets/afonts_app/Enjoy The Time/Enjoy The Time Inverse.otf
+    - family: enjoy the time
+      fonts:
+        - asset: assets/afonts_app/Enjoy The Time/enjoy the time.otf
+    - family: Eternal Love Hollow Inverse
+      fonts:
+        - asset: assets/afonts_app/Eternal Love/Eternal Love Hollow Inverse.otf
+    - family: Eternal Love Hollow
+      fonts:
+        - asset: assets/afonts_app/Eternal Love/Eternal Love Hollow.otf
+    - family: Eternal Love Inverse
+      fonts:
+        - asset: assets/afonts_app/Eternal Love/Eternal Love Inverse.otf
+    - family: eternal love
+      fonts:
+        - asset: assets/afonts_app/Eternal Love/eternal love.otf
+    - family: Font-011
+      fonts:
+        - asset: assets/afonts_app/Font-011.ttf
+    - family: Frame Work Filled Inverse
+      fonts:
+        - asset: assets/afonts_app/Frame Work/Frame Work Filled Inverse.otf
+    - family: Frame Work Hollow Inverse
+      fonts:
+        - asset: assets/afonts_app/Frame Work/Frame Work Hollow Inverse.otf
+    - family: Frame Work Hollow
+      fonts:
+        - asset: assets/afonts_app/Frame Work/Frame Work Hollow.otf
+    - family: frame work
+      fonts:
+        - asset: assets/afonts_app/Frame Work/frame work.otf
+    - family: Frankenstain Monster Hollow
+      fonts:
+        - asset: assets/afonts_app/Frankenstain Monster/Frankenstain Monster Hollow.otf
+    - family: frankenstain monster
+      fonts:
+        - asset: assets/afonts_app/Frankenstain Monster/frankenstain monster.otf
+    - family: Gabrielle Hollow Inverse
+      fonts:
+        - asset: assets/afonts_app/Gabrielle/Gabrielle Hollow Inverse.otf
+    - family: Gabrielle Hollow
+      fonts:
+        - asset: assets/afonts_app/Gabrielle/Gabrielle Hollow.otf
+    - family: Gabrielle Inverse
+      fonts:
+        - asset: assets/afonts_app/Gabrielle/Gabrielle Inverse.otf
+    - family: gabrielle
+      fonts:
+        - asset: assets/afonts_app/Gabrielle/gabrielle.otf
+    - family: Game Player Hollow Inverse
+      fonts:
+        - asset: assets/afonts_app/Game Player/Game Player Hollow Inverse.otf
+    - family: Game Player Hollow
+      fonts:
+        - asset: assets/afonts_app/Game Player/Game Player Hollow.otf
+    - family: Game Player Inverse
+      fonts:
+        - asset: assets/afonts_app/Game Player/Game Player Inverse.otf
+    - family: game player
+      fonts:
+        - asset: assets/afonts_app/Game Player/game player.otf
+    - family: Nano Inverse
+      fonts:
+        - asset: assets/afonts_app/Nano/Nano Inverse.otf
+    - family: nano
+      fonts:
+        - asset: assets/afonts_app/Nano/nano.otf
+    - family: decorated
+      fonts:
+        - asset: assets/afonts_app/decorated.ttf
+    - family: digital
+      fonts:
+        - asset: assets/afonts_app/digital.ttf
+    - family: droid
+      fonts:
+        - asset: assets/afonts_app/droid.otf
+    - family: frame
+      fonts:
+        - asset: assets/afonts_app/frame.ttf
+    - family: leafly
+      fonts:
+        - asset: assets/afonts_app/leafly.ttf
+    - family: mandalas
+      fonts:
+        - asset: assets/afonts_app/mandalas.ttf
+    - family: mountain dew
+      fonts:
+        - asset: assets/afonts_app/mountain dew.ttf
+    - family: origami
+      fonts:
+        - asset: assets/afonts_app/origami.ttf
+    - family: precious
+      fonts:
+        - asset: assets/afonts_app/precious.ttf
+    - family: sketch rock wall
+      fonts:
+        - asset: assets/afonts_app/sketch rock wall.ttf
